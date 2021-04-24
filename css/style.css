@@ -14,7 +14,7 @@
   background: #ffffff;
 }
 .section1__title, .section1__subtitle {
-  font-family: "Lato";
+  font-family: "Lato" sans-serif;
   font-style: normal;
   text-align: center;
   margin: 0 auto;
@@ -42,7 +42,7 @@
 }
 
 .section2__title {
-  font-family: "Lato";
+  font-family: "Lato" sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -69,23 +69,22 @@
 .section2__border:hover svg {
   fill: #3564fc;
 }
-.section2__h3 {
-  font-family: "Lato";
+.section2__h3, .section2__text {
+  font-family: "Lato" sans-serif;
   font-style: normal;
+  text-align: center;
+}
+.section2__h3 {
   font-weight: bold;
   font-size: 24px;
   line-height: 24px;
-  text-align: center;
   text-transform: uppercase;
   color: #565656;
 }
 .section2__text {
-  font-family: "Lato";
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  text-align: center;
 }
 
 .section2_border {
