@@ -1,7 +1,64 @@
-@import url(section_sposib.scss);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background: #ffffff;
+}
+.section1__title, .section1__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  text-align: center;
+  margin: 0 auto;
+}
+.section1__title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  color: #565656;
+}
+.section1__subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5a5a5a;
+  width: 1047px;
+}
+
+.section1_title {
+  padding-top: 80px;
+  margin-bottom: 32px;
+}
+
+.section1_subtitle {
+  margin-bottom: 80px;
+}
+
+.section2__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #565656;
+}
+.section2__border {
+  width: 140px;
+  height: 140px;
+  background: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
 }
 /*# sourceMappingURL=style.css.map */
