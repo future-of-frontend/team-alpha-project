@@ -1,7 +1,237 @@
+body {
+  position: relative;
+}
+
+.header {
+  min-height: 100vh;
+  background: url(../img/Background.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 114px 0 32px;
+}
+
+.header .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header__burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.header__photo {
+  margin-bottom: 44px;
+}
+
+.header__photo img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 10px #5895fe, 0px 0px 0px 20px #478bfe;
+          box-shadow: 0px 0px 0px 10px #5895fe, 0px 0px 0px 20px #478bfe;
+}
+
+.header__header {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 56px;
+  letter-spacing: 0.025em;
+  margin-bottom: 0;
+  margin-bottom: 16px;
+}
+
+.header__info {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 56px;
+}
+
+.header__button {
+  text-align: center;
+  display: inline-block;
+  width: 187px;
+  margin: 0 auto;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3695ff;
+  padding: 18px 0;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 102px;
+}
+
+.header__button:hover {
+  color: #fff;
+  background: #3695ff;
+  border-color: #fff;
+}
+
+.header__arrow {
+  cursor: pointer;
+}
+
+.header__menu {
+  position: relative;
+  padding: 80px 0;
+  background: #fff;
+  text-transform: none;
+}
+
+.header__menu__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.header__nav {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.header__nav:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  left: 24%;
+  bottom: -80px;
+  height: 1px;
+  background: rgba(25, 66, 119, 0.2);
+}
+
+.header__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__social__imgwrap {
+  margin-bottom: 80px;
+  width: 50px;
+  height: 50px;
+  background: #e1e1e1;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__social__imgwrap:not(:last-child) {
+  margin-right: 35px;
+}
+
+.header__social__imgwrap:hover {
+  background: linear-gradient(51deg, #3595ff 2.94%, #3564fc 140.18%);
+}
+
+.header__list {
+  list-style: none;
+}
+
+.header__list__item {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.header__list__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.header__list__link {
+  text-decoration: none;
+  color: #d2d2d2;
+}
+
+.header__list__link:hover {
+  color: #3677fd;
+}
+
+.footer {
+  padding: 96px 0;
+  background: url(../img/BG.png) no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__button {
+  text-align: center;
+  display: inline-block;
+  width: 187px;
+  margin: 0 auto;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3695ff;
+  padding: 18px 0;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 102px;
+  margin: 0;
+}
+
+.footer__button:hover {
+  color: #fff;
+  background: #3695ff;
+  border-color: #fff;
+}
+
+.footer__info {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.footer__info--bold {
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
